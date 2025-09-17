@@ -20,20 +20,20 @@ from turtle import *
 # this line says we are using the "turtle" library of functions
 # dont remember to use this for turtle graphics in Python
 
-def square ():
-    #fillcolor("Green")
-    begin_fill()
-    pencolor("Red")
-    forward (100) 
-    right (90)
-    end_fill()
-    forward (100) 
-    right (90) 
-    forward (100) 
-    right (90) 
-    forward (100) 
+#def square ():
+ #   #fillcolor("Green")
+  #  begin_fill()
+   # pencolor("Red")
+    #forward (100) 
+    #right (90)
+    #end_fill()
+    #forward (100) 
+    #right (90) 
+    #forward (100) 
+   # right (90) 
+    #forward (100) 
 
-square()
+#square()
 
 
 def mystery():
@@ -56,7 +56,25 @@ def mystery():
     forward(100)
     right(45)
     forward(100)
-    
+    pencolor("blue")
+    right(112.5)
+    forward(260)
+    left(157.5)
+    penup()
+    forward(240)
+    pendown()
+    left(157.5)
+    forward(260)
+    left(157.5)
+    penup()
+    forward(240)
+    pendown()
+    right(135)
+    penup()
+    forward(50)
+    pendown()
+    right(90)
+    forward(275)
 mystery()
 
 #1 turn 90 degrees right 
@@ -66,13 +84,17 @@ mystery()
 #5 say backwards and left 
 #6 def defines the function 
 #7 it dosent work
-def triangle():
-    pencolor("blue")
-    forward(100)
-    right(60)
-    forward(100)
-    right(60)
-    forward(100)
-    right(60)
+#def triangle():
+ #   pencolor("blue")
+  #  forward(100)
+   # left(120)
+    #forward(100)
+  #  left(120)
+   # forward(100)
+    #left(120)
     
-triangle()
+#triangle()
+   
+   
+   
+   
