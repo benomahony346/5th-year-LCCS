@@ -50,13 +50,17 @@ clear()
 def flower():
     for counter in range (20):
         petal()
-clear()
+
 flower()
+clear()
 #1.	Modify your square function so that you can input the length of the sides and draw squares of different sizes
+length = int(input("what is the length of one side of your square? "))
+import turtle
+        
 def square(length):
     for counter in range(4):
-        forward(length)
-        right(90)
-        lenght = int(input("what lenght is your square		"))
-        
-square()
+        turtle.forward(length)
+        turtle.left(90)
+
+square(length)
+turtle.done()
