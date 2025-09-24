@@ -25,7 +25,7 @@ square(length)
 right(90)
 forward(200)
 left(90)
-forward(75)
+forward(125)
     
 length2 = int(input("what is the length of one side of your square? "))
 square(length2)
