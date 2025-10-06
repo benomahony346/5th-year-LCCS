@@ -40,16 +40,20 @@ print(answer5)
 
 # 6. Extract every 2nd character starting from the beginning
 answer6 = course[::2]  # Hint provided
+print(answer6)
 
 # 7. Extract the last 7 characters
-#answer7 = 
+answer7 = course[19:]
+print(answer7)
 
 # 8. Reverse the entire string
-#answer8 = 
+answer8 = course[:]
+print(answer8)
 
 # 9. Extract "LCC" (first letters of each word - tricky!)
 # Hint: Positions are 0, 7, 11
-#answer9 =
+answer9 = course[0], [7], [11]
+print(answer9)
 
 #
 # Tier 3 - Complete Tasks 10-11
