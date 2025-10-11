@@ -24,35 +24,48 @@ print("Vowels found:", vowel_count)
 text2 = "computer"
 vowel_count2 = 0
 # Write the complete code yourself:
-for letter in text2:
+for letter in text:
     if letter in vowels:
-        vowel_count2 = vowel_count2 + 1 
-print("vowels found", vowel_count2)
+        vowel_count2 = vowel_count2 + 1  # Add 1 to the count
+    
+print("Vowels found:", vowel_count2)
+
 #
 # Tier 2 - Complete Tasks 3-4
 #
 
 # Task 3: Count consonants (letters that are NOT vowels)
-text3 = "programming"
+text = "programming"
 vowels = "aeiou"
 consonant_count = 0
 
 # Write your code here:
-for letter in text3:
+for letter in text:
     if letter not in vowels:
-        consonant_count = consonant_count + 1 
-print("Consonants found", consonant_count)
+        consonant_count = consonant_count + 1  # Add 1 to the count
+    
+print("contsonants found:", consonant_count)
 
 
 # Task 4: Count how many uppercase and lowercase letters separately
-text4 = "LeavingCert"
-letter
+text2 = "LeavingCert"
 uppercase_count = 0
+uppercase = " A B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
 lowercase_count = 0
+lowercase = " abcdefghijklmnopqrstuvwxyz"
 
 # Write your code here:
-for letter in text4:
-    if letter
+for letter in text:
+    if letter in lowercase:
+        lowercase_count = lowercase_count + 1  # Add 1 to the count
+    
+print("lowercase found:", lowercase_count)
+
+for letter in text:
+    if letter in uppercase:
+        uppercase_count = uppercase_count + 1  # Add 1 to the count
+    
+print("uppercase found:", uppercase_count)
 
 #
 # Tier 3 - Complete Tasks 5
